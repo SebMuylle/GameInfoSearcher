@@ -1,4 +1,4 @@
-<img width="752" height="361" alt="GameInfoSearcher Window" src="https://github.com/user-attachments/assets/2ed99404-ead0-4401-a811-61f4f8f44a2d" />
+<img width="751" height="360" alt="GameInfoSearcher Windowver1" src="https://github.com/user-attachments/assets/2fa02171-f993-44e5-b24c-ca685f8bb7fd" />
 
 # GameInfoSearcher
 GameInfoSearcher is a project created to demonstrate my programming skills in the areas of object-oriented design, file management, database management, web navigation, data mangement (gathering and modifying data), multi-processing, and Graphics User Interface (GUI) design and implemention. 
