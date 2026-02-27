@@ -77,13 +77,13 @@ Where you will change the User-Agent and Accept-Language's values with what is s
 4.) If there are any missing Python Libraries such as Selenium or Pyside6, please ensure these are installed onto your computer by using Python's pip console tool or by other means.  
 
 Libraries/Packages used in this program:
-PySide6
-requests
-urllib3
-selenium
-openpyxl
-cydifflib
-beautifulsoup4
+* PySide6
+* requests
+* urllib3
+* selenium
+* openpyxl
+* cydifflib
+* beautifulsoup4
  
 
 # Operation (How To Use):
