@@ -24,7 +24,7 @@ This program is designed to work on both Windows and Linux Platforms.
  
 
 # Installtion and Set-Up Steps: 
-# (Important! Don't skip any steps)
+(Important! Don't skip any steps)
 
 1.) Download the source files from the GitHub repository and place the folder in any folder on your computer. 
 
