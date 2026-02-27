@@ -8,9 +8,7 @@ This project is not intended for any commerical purposes, and is intended purely
 
 This program utilizes web tools to search for and gather information based on a list of games inputted by a user.
 
-Once the program completes searching for the games' data, it will store them in a database, for example "Games.db",
-
-and output a .Xlsx file with the list of games' data for the user to copy and paste from.    
+Once the program completes searching for the games' data, it will store them in a database, for example "Games.db", and output a .Xlsx file with the list of games' data for the user to copy and paste from.    
 
 It utilizes tools such as Selenium (specifially GeckoDriver - a FireFox web bot) and Python's Requests libraries to handle gathering and parsing website data. 
 
@@ -49,14 +47,12 @@ Typically, it is installed into the '/usr/local/bin' folder on your Linux machin
 
 
 2a.)
-Optionally, if you are familiar with FireFox and wish to utilize any web plugins/extensions, you can place XPI files (*.xpi) 
-
-into the following folder - "..\GameInfoSearcherV1\web_hunters\firefoxprofile"
+Optionally, if you are familiar with FireFox and wish to utilize any web plugins/extensions, you can place XPI files (*.xpi) into the following folder - "..\GameInfoSearcherV1\web_hunters\firefoxprofile"
 
 
-3.) While this third step is optional, users should enter their own web headers into settings of the program.
+3.) While this third step is optional, users should enter their own web headers into the settings of the program.
 
-This ensures better search results because the requests library in python by default utilizes web headers that shows the web request is being made by a web bot.  
+This ensures better search results because the requests library in Python by default utilizes web headers that shows the web request is being made by a web bot.  
 
 Searching online for "what are my web headers" should help to provide details what your current web headers are.
 
@@ -64,7 +60,7 @@ Link to one such web header tool:
 
 https://www.whatismybrowser.com/detect/what-http-headers-is-my-browser-sending/
 
-Once you have found your web headers, please enter as a dictionary style list within your program's settings menu or typed into the UserSettings text file. 
+Once you have found your web headers, please enter them as a dictionary style list within your program's settings menu or typed into the UserSettings text file. 
 
 The format should be as follows:
 
@@ -107,6 +103,7 @@ As well as, the ability to choose to check off which website to search for data 
 
 To remove a single game from the list on the right, double click the item in the list. To clear the list of all game titles, select the Options Menu Button towards the top of the window, and select the button option "Clear List".
 
+In addition, a UserSettings folder and a Settings.txt file will be generated when running the code for the first time. 
 
 2a.) In addition, the program's settings can be accessed via the "Settings" button under the Options Menu Button. Here you can change the wait time between searches, the program's web headers, as well as where the database file or where spreadsheet will be exported out to. 
 
