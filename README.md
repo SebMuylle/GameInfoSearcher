@@ -133,14 +133,13 @@ Finally, the program will generate a .Xlsx file and export out the spreadsheet w
 
 # F.A.Q.
 
-*
-How do I make the program search for games' data faster? 
+* How do I make the program search for games' data faster? 
 
 You may either change the wait times within the settings menu on the program's window/GUI, or manually in the Settings.txt file contained within the "..\GameInfoSearcherV1\UserSettings" Folder. 
 
 Within the GUI window, select the Options Menu Button from the top left of the window. Then from that menu, click on the Settings menu option to open the settings menu and navigate to the wait time settings.  
 
-To change the settings within the Settings.txt file, open the text file in any text editor and change the values for the Min-WaitTime and Max-WaitTime to any values. Floating point numbers such "3.333" will not be accepted and converted to an integar.
+To change the settings within the Settings.txt file, open the text file in any text editor and change the values for the Min-WaitTime and Max-WaitTime to any values. Floating point numbers such "3.333" will not be accepted and will be converted to an integar.
 
 Please note when changing the wait times: 
 
@@ -150,8 +149,7 @@ Otherwise, if set to a lower speed such as one second, it can result in websites
 
 The 'slow' random wait times help to prevent these roadblocks and ensures accurate results. 
 
-*
-How do I use the "Get Text List" button option listed on the Window/GUI? 
+* How do I use the "Get Text List" button option listed on the Window/GUI? 
 
 Create a text file and title it whatever you want it to be, for example 'GameList.txt'.
 
