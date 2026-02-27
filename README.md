@@ -5,7 +5,7 @@ This project is not intended for any commerical purposes, and is intended purely
 
 #################################################################
 
-Project Details:
+# Project Details:
 
 This program utilizes web tools to search for and gather information based on a list of games inputted by a user.
 
@@ -25,8 +25,8 @@ This program is designed to work on both Windows and Linux Platforms.
 
 ############################################################# 
 
-Installtion and Set-Up Steps: 
-(Important! Don't skip any steps)
+# Installtion and Set-Up Steps: 
+# (Important! Don't skip any steps)
 
 1.) 
 Download the source files from the GitHub repository and place the folder in any folder on your computer. 
@@ -94,7 +94,7 @@ beautifulsoup4
 
 #############################################################################
 
-Operation (How To Use):
+# Operation (How To Use):
 
 1.)
 Start the program by using your platform's preferred Command Console/Terminal and run the following python command to start the program:
@@ -135,7 +135,7 @@ Finally, the program will generate a .Xlsx file and export out the spreadsheet w
 
 ################################################################ 
 
-F.A.Q.
+# F.A.Q.
 
 *
 How do I make the program search for games' data faster? 
@@ -146,7 +146,7 @@ Within the GUI window, select the Options Menu Button from the top left of the w
 
 To change the settings within the Settings.txt file, open the text file in any text editor and change the values for the Min-WaitTime and Max-WaitTime to any values. Floating point numbers such "3.333" will not be accepted and converted to an integar.
 
-# Please note when changing the wait times: 
+Please note when changing the wait times: 
 
 The program's default time settings ensures the program is able to successfully retrieve data from the various websites it searches. 
 
