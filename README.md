@@ -26,12 +26,10 @@ This program is designed to work on both Windows and Linux Platforms.
 # Installtion and Set-Up Steps: 
 # (Important! Don't skip any steps)
 
-1.) 
-Download the source files from the GitHub repository and place the folder in any folder on your computer. 
+1.) Download the source files from the GitHub repository and place the folder in any folder on your computer. 
 
 
-2.)
-Download the lastest geckodriver file from the following link: 
+2.) Download the lastest geckodriver file from the following link: 
 
 https://github.com/mozilla/geckodriver 
 
@@ -56,8 +54,7 @@ Optionally, if you are familiar with FireFox and wish to utilize any web plugins
 into the following folder - "..\GameInfoSearcherV1\web_hunters\firefoxprofile"
 
 
-3.)
-While this third step is optional, users should enter their own web headers into settings of the program.
+3.) While this third step is optional, users should enter their own web headers into settings of the program.
 
 This ensures better search results because the requests library in python by default utilizes web headers that shows the web request is being made by a web bot.  
 
@@ -78,8 +75,7 @@ The format should be as follows:
 Where you will change the User-Agent and Accept-Language's values with what is shown by the web header tool.
 
 
-4.)
-If there are any missing Python Libraries such as Selenium or Pyside6, please ensure these are installed onto your computer by using Python's pip console tool or by other means.  
+4.) If there are any missing Python Libraries such as Selenium or Pyside6, please ensure these are installed onto your computer by using Python's pip console tool or by other means.  
 
 Libraries/Packages used in this program:
 PySide6
@@ -93,8 +89,7 @@ beautifulsoup4
 
 # Operation (How To Use):
 
-1.)
-Start the program by using your platform's preferred Command Console/Terminal and run the following python command to start the program:
+1.) Start the program by using your platform's preferred Command Console/Terminal and run the following python command to start the program:
 
 Windows Command:
 
@@ -105,8 +100,7 @@ Linux Command:
 python3 /PATH/TO/FOLDER/GameInfoSearcherV1/main.py
 
 
-2.)
-Upon launching the program, the user will be presented with the Game Information Searcher Window. 
+2.) Upon launching the program, the user will be presented with the Game Information Searcher Window. 
 
 Here the user will be given the choice to add a single game title to the list on the right, or utilize the 'Get Test List' button to get several titles from a text file. (Please see the F.A.Q. Section below to see how to format the Text List.) 
 As well as, the ability to choose to check off which website to search for data from. 
@@ -114,18 +108,15 @@ As well as, the ability to choose to check off which website to search for data 
 To remove a single game from the list on the right, double click the item in the list. To clear the list of all game titles, select the Options Menu Button towards the top of the window, and select the button option "Clear List".
 
 
-2a.)
-In addition, the program's settings can be accessed via the "Settings" button under the Options Menu Button. Here you can change the wait time between searches, the program's web headers, as well as where the database file or where spreadsheet will be exported out to. 
+2a.) In addition, the program's settings can be accessed via the "Settings" button under the Options Menu Button. Here you can change the wait time between searches, the program's web headers, as well as where the database file or where spreadsheet will be exported out to. 
 
 
-3.)
-After you have added a list of games to search for and selected your website options, the "Start Search" button will become available to click on. 
+3.) After you have added a list of games to search for and selected your website options, the "Start Search" button will become available to click on. 
 
 Once you click this "Start Search" button, the Game Information Searcher Window will close out and your computer's console will begin reporting the program's process and activities as it searches for each game's data on each website.  
 
 
-4.) 
-Once the program has completed all data searches, it will report where the data has been saved to. If it is the first time running the program, a database will generated and saved to the path set in the Settings. 
+4.) Once the program has completed all data searches, it will report where the data has been saved to. If it is the first time running the program, a database will generated and saved to the path set in the Settings. 
 
 Finally, the program will generate a .Xlsx file and export out the spreadsheet with the title, which is set in the settings, followed by the date the program completed its search. For example, "Game Excel Result - 01-01-2025".
 
