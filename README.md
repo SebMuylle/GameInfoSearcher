@@ -145,13 +145,7 @@ The 'slow' random wait times help to prevent these roadblocks and ensures accura
 Create a text file and title it whatever you want it to be, for example 'GameList.txt'.
 
 In the text file, write each game title on a new line. (Typically this done by pressing the 'Enter' key to create a newline.) 
-
-For example:
-
-Game Title 1
-Game Title 2
-Game Title 3 
-
+ 
 Picture Example:
 
 <img width="541" height="269" alt="ExampleOfAGameList" src="https://github.com/user-attachments/assets/32d8a42e-9c50-4712-95e2-a9ca5cad3a7f" />
