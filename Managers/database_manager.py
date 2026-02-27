@@ -331,6 +331,16 @@ class DataBaseManager():
                 listStr.append(item) 
         return newString.join(listStr) 
     
+    def apostrophe_string_check(self, value:str) -> str:
+        '''
+        Checks for any Apostrophes -> ' and replaces them with a Dash.
+        This is to prevent insertion errors when inserting into the Database.
+        '''
+        if "\'" in value:
+            value = value.replace('\'', '-')
+
+        return value
+
     ########################################################################################################################################
     ########################################################################################################################################
     ############################# UPDATING DATABASE WITH ONE GAME SECTION #################################################################
@@ -384,7 +394,7 @@ class DataBaseManager():
             wikiReviews = empty_value_check(self.check_container_type(gameObj.wiki_data.reviews_dict))
             releaseDate = empty_value_check(self.check_container_type(gameObj.wiki_data.release))
             imageURL = empty_value_check(self.check_container_type(gameObj.wiki_data.image))
-            titleOnWebsite = empty_value_check(self.check_container_type(gameObj.wiki_data.title_on_wiki))
+            titleOnWebsite = self.apostrophe_string_check(empty_value_check(self.check_container_type(gameObj.wiki_data.title_on_wiki)))
             series = empty_value_check(self.check_container_type(gameObj.wiki_data.series))
             developers = empty_value_check(self.check_container_type(gameObj.wiki_data.developers))
             publishers = empty_value_check(self.check_container_type(gameObj.wiki_data.publisher))
@@ -439,9 +449,8 @@ class DataBaseManager():
             rating = gameObject.open_c_data.openCriticRatingText
             top_critic_average = self.__string_value_check(gameObject.open_c_data.topCriticAverage)
             critics_recommend = self.__string_value_check(gameObject.open_c_data.criticsRecommend)
-            gameURL = gameObject.open_c_data.url 
-            
-            titleOnWebsite = gameObject.open_c_data.title_on_oc
+            gameURL = gameObject.open_c_data.url             
+            titleOnWebsite = self.apostrophe_string_check(gameObject.open_c_data.title_on_oc)
         else: 
             rating = "None"
             top_critic_average = 0
@@ -481,7 +490,7 @@ class DataBaseManager():
 
             gameURL = gameObject.steam_data.url
             
-            titleOnWebsite = gameObject.steam_data.title_on_steam 
+            titleOnWebsite = self.apostrophe_string_check(gameObject.steam_data.title_on_steam)
         else: 
             allReviewsText = 'No user review'
             recentReviewsText = 'No user review'
