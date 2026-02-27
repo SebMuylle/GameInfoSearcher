@@ -2,8 +2,7 @@
 GameInfoSearcher is a project created to demonstrate my programming skills in the areas of object-oriented design, file management, database management, web navigation, data mangement (gathering and modifying data), multi-processing, and Graphics User Interface (GUI) design and implemention. 
 
 This project is not intended for any commerical purposes, and is intended purely for educational/personal purposes to demonstrate one's programming skillsets.
-
-#################################################################
+ 
 
 # Project Details:
 
@@ -22,8 +21,7 @@ Python's multiprocessing library is utilized to speed up the web tools and the p
 The GUI interface utilizes the PySide6 library.  
 
 This program is designed to work on both Windows and Linux Platforms. 
-
-############################################################# 
+ 
 
 # Installtion and Set-Up Steps: 
 # (Important! Don't skip any steps)
@@ -91,8 +89,7 @@ selenium
 openpyxl
 cydifflib
 beautifulsoup4
-
-#############################################################################
+ 
 
 # Operation (How To Use):
 
@@ -132,8 +129,7 @@ Once the program has completed all data searches, it will report where the data 
 
 Finally, the program will generate a .Xlsx file and export out the spreadsheet with the title, which is set in the settings, followed by the date the program completed its search. For example, "Game Excel Result - 01-01-2025".
 
-
-################################################################ 
+ 
 
 # F.A.Q.
 
