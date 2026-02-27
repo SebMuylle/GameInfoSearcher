@@ -1,8 +1,11 @@
+<img width="752" height="361" alt="GameInfoSearcher Window" src="https://github.com/user-attachments/assets/2ed99404-ead0-4401-a811-61f4f8f44a2d" />
+
 # GameInfoSearcher
 GameInfoSearcher is a project created to demonstrate my programming skills in the areas of object-oriented design, file management, database management, web navigation, data mangement (gathering and modifying data), multi-processing, and Graphics User Interface (GUI) design and implemention. 
 
 This project is not intended for any commerical purposes, and is intended purely for educational/personal purposes to demonstrate one's programming skillsets.
  
+
 
 # Project Details:
 
@@ -148,5 +151,10 @@ For example:
 Game Title 1
 Game Title 2
 Game Title 3 
+
+Picture Example:
+
+<img width="541" height="269" alt="ExampleOfAGameList" src="https://github.com/user-attachments/assets/32d8a42e-9c50-4712-95e2-a9ca5cad3a7f" />
+
 
 There are no limits on how many titles are read from the text file, so you can add as many as you desire. Just note, the more game titles you add, the more time it will take to retrieve their information depending on the wait time. 
